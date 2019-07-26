@@ -1,0 +1,164 @@
+/*
+    Chosen Color Pallet
+    3C553D
+    FFFFF4
+    636B6F
+    EB5E55
+    2F6690
+*/
+html, body {
+    background-color: #fff;
+    color: #2d3031;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 200;
+    height: 100vh;
+    margin: 0;
+}
+
+/*body{
+    background: url(images/DSC00533.jpg);
+    background-repeat: no-repeat;
+    background-size: auto 100%;
+}*/
+
+body{
+    background-image: linear-gradient( #2F6690, #ffffff);
+}
+
+.full-height {
+    height: 100vh;
+}
+
+.flex-center {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.position-ref {
+    position: relative;
+}
+
+.top-right {
+    position: absolute;
+    right: 10px;
+    top: 18px;
+}
+
+.content {
+    text-align: center;
+}
+
+.title {
+    font-size: 84px;
+}
+
+.links > a {
+    color: #636b6f;
+    padding: 0 25px;
+    font-size: 13px;
+    font-weight: 600;
+    letter-spacing: .1rem;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.subtitle {
+    color: #636b6f;
+}
+
+.m-b-md {
+    margin-bottom: 30px;
+}
+
+@-webkit-keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
+@-moz-keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
+@keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
+
+.fadeIn {
+        opacity:0;  /* make things invisible upon start */
+        -webkit-animation:fadeIn ease-in 1;  /* call our keyframe named fadeIn, use animattion ease-in and repeat it only 1 time */
+        -moz-animation:fadeIn ease-in 1;
+        animation:fadeIn ease-in 1;
+
+        -webkit-animation-fill-mode:forwards;  /* this makes sure that after animation is done we remain at the last keyframe value (opacity: 1)*/
+        -moz-animation-fill-mode:forwards;
+        animation-fill-mode:forwards;
+
+        -webkit-animation-duration: 0.5s;
+        -moz-animation-duration: 0.5s;
+        animation-duration: 0.5s;
+}
+.fadeIn.one{
+    -webkit-animation-delay: 0.3s;
+    -moz-animation-delay: 0.3s;
+    animation-delay: 0.3s;
+}
+.fadeIn.two{
+    -webkit-animation-delay: 0.5s;
+    -moz-animation-delay: 0.5s;
+    animation-delay: 0.5s;
+}
+.fadeIn.three{
+    -webkit-animation-delay: 0.7s;
+    -moz-animation-delay: 0.7s;
+    animation-delay: 0.7s;
+}
+.fadeIn.four{
+    -webkit-animation-delay: 0.9s;
+    -moz-animation-delay: 0.9s;
+    animation-delay: 0.9s;
+}
+.fadeIn.five{
+    -webkit-animation-delay: 1.2s;
+    -moz-animation-delay: 1.2s;
+    animation-delay: 1.2s;
+}
+
+label {
+    text-align: left;
+    float: left;
+}
+
+/* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+    width: 100%; /* Full width */
+    padding: 12px; /* Some padding */
+    border: 1px solid #ccc; /* Gray border */
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+    }
+
+/* Style the submit button with a specific background color etc */
+.mvButton {
+background-color: #3c553d;
+color: white;
+padding: 12px 20px;
+border: none;
+border-radius: 4px;
+cursor: pointer;
+}
+
+.mvButton > a{
+    color: white;
+    text-decoration: none;
+}
+/* When moving the mouse over the submit button, add a darker green color */
+.mvButon:hover {
+background-color: #45a049;
+}
+
+/* Add a background color and some padding around the form */
+.container {
+border-radius: 5px;
+background-color: #f2f2f2;
+padding: 20px;
+}
+
+.smallform{
+    max-width: 500px;
+    margin: auto;
+}
